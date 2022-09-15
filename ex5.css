@@ -1,0 +1,17 @@
+.container{
+    width: 70%;
+    border-radius: 6px;
+    background-color: #EFF6F6;
+    padding: 10px;
+}
+input[type=text],textarea{
+    width: 60%;
+    padding: 8px;
+    border:1px solid #ccc;
+    margin-top: 4px;
+    margin-bottom: 10px; 
+}
+input[type=submit]{
+    background-color: #EFF6F6;
+    padding: 8px 8px;
+}

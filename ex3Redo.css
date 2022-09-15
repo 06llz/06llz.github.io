@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    background:pink;
+    color:white;
+}
+.logoimg{
+    height: 10%;
+    float:left;
+}
+.navbar{
+    overflow: hidden;
+    background-color:antiquewhite;
+    float: inline-end;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+}
+.navbar a.right{
+    float: right;
+}
+.navbar a:hover{
+    background-color: #eee;
+    color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar{
+    flex:20%;
+    background-color:beige;
+    padding: 20px;
+    float: right;
+}
+
+.main{
+    flex:80%;
+    background-color: white;
+    padding: 20px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    height: px;
+    width: 115px;
+    list-style: none;/*没有黑点点*/
+    float: left;
+    display: inline;
+    font: 0.9em Arial, Helvetica, sans-serif;
+}
+ul li a{
+    color:aquamarine;
+    width: 113px;
+    margin: 0px;
+    padding: 0px 0px 0px 8px;
+    text-decoration: none;/*不要有下划线*/
+    display: block;
+    background:teal;
+    line-height: 29px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+ul li ul li{
+    height: 25px;
+}
+ul li ul li a{
+    background: #666;
+    line-height: 15px;
+}
+ul li a:hover{
+    background: #666;
+    border-bottom: 1px dashed #FF0000;
+}
+ul li ul {
+    visibility:hidden;
+}
+ul li:hover ul{
+    visibility:visible;
+}
+ul li ul li a:hover{
+background:#333;
+}

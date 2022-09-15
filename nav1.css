@@ -1,0 +1,12 @@
+table{
+    width: 978px;
+    height: 40px;
+    background: url(./pics/nav-blue.png);
+}
+a:link,a:visited,a:hover,a:active{
+    color: white;
+}
+a:hover{
+    color:red;
+    border-bottom: 5px solid #FF0000;
+}
